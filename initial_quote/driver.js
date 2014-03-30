@@ -24,7 +24,7 @@ $(document).ready( function() {
     data.bProcessing = true;
     data.bServerSide = true;
     data.bjQueryUI = true;
-    data.sAjaxSource = "/initial_quote_app/_retrieve_server_data";
+    data.sAjaxSource = "http://rbisd.com/initial_quote_app/_retrieve_server_data";
     data.fnDrawCallback = redraw_event;
 
     /* Initialise the DataTable */
@@ -172,7 +172,7 @@ function updateCurrentPremium(newCurrent) {
 	updateOptimalOffer();
 
     if ( ie8_mode ) {
-        var url = '/initial_quote_app/quote/'.concat(currentQuote).concat('/').concat(newCurrent).concat('/plot.png');
+        var url = 'http://rbisd.com/initial_quote_app/quote/'.concat(currentQuote).concat('/').concat(newCurrent).concat('/plot.png');
         // Get dimensions of the chart div
         var width = $('#chart_div').width();
         var height = $('#offer_table').height();
@@ -283,7 +283,7 @@ function updateGraph(quote) {
 	selectedOffer = undefined;
     if ( !ie8_mode ) updateSelectedOffer();
 
-    $.getJSON( "/initial_quote_app/quote/".concat(quote), function( newdata ) {
+    $.getJSON( "http://rbisd.com/initial_quote_app/quote/".concat(quote), function( newdata ) {
 
 		offers = new Array();
 		for (var o in newdata.offers) {
