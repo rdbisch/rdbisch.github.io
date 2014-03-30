@@ -1,0 +1,130 @@
+body {
+  background-color: #eee;
+  font-family: helvetica, sans-serif;
+  font-weight: 100;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+	background-color: white;
+}
+
+#imageHeader{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+	align:center;
+}
+
+h1 {
+	color: #7570B3;
+	text-align:center;
+	margin-top:10px;
+}
+
+#help {
+	text-align:center;
+	font-size: small;
+	margin-top: 0px;
+}
+
+#nav {
+	width: 100%;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	align:center;
+}
+
+#customer_chars {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#prevlink {
+	margin-left: 20px;
+	float: left;
+}
+
+#nextlink {
+	float: right;
+	margin-right: 20px;
+}
+
+#newmenu {
+    width: 30%;
+	margin-right: 2px;
+	margin-left: auto;
+	float: right;
+}
+
+#quote_menu {
+	width: 30%;
+	margin-left: 2px;
+	margin-right: auto;
+	float: left;
+}
+
+#header1 {
+    width: 30%;
+    float: right;
+}
+
+#inner_container {
+	margin-top: 60px;
+	width: 100%;
+}
+
+
+#content {
+	margin-left: auto;
+	margin-right: 2px;
+	float: right;
+	width: 65%;
+}
+
+#slider_wrapper {
+	/* Note that these line up with the graph margins we built in the JS */
+	margin-left: 60px;
+	margin-right: 10px;
+	align: center;
+	margin-top: 10px;
+}
+
+#radiobuttons li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+th, td { padding: 8px 8px 8px; }
+
+td {
+  font-size: 12px;
+  padding: 2px;
+  text-align: right;
+}
+
+thead th {
+  margin-left: 200px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+tbody th {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+}
+
+p.x_label {
+  top: 45px;
+  font-size: 12px;
+  text-align: center;
+}
+
