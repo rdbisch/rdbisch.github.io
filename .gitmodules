@@ -1,0 +1,3 @@
+[submodule "cs498_narrative_viz"]
+	path = cs498_narrative_viz
+	url = https://github.com/rdbisch/cs498_narrative_viz
